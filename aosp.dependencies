@@ -24,5 +24,9 @@
   {
     "repository"  : "vendor_google_camera",
     "target_path" : "vendor/google/camera"
-  }
+  },
+  {
+    "repository"  : "vendor_oneplus_camera",
+    "target_path" : "vendor/oneplus/camera"
+}
 ]
