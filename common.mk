@@ -92,6 +92,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     AntHalService
 
+# Device Settings
+PRODUCT_PACKAGES += \
+    DeviceSettings
+
 # Atrace
 PRODUCT_PACKAGES += \
     android.hardware.atrace@1.0-service
@@ -181,6 +185,7 @@ PRODUCT_PACKAGES += \
     ftm_power_config.sh \
     init.class_main.sh \
     init.crda.sh \
+    init.devicesettings.rc \
     init.mdm.sh \
     init.msm.usb.configfs.rc \
     init.oem.debug.rc \
@@ -455,7 +460,6 @@ PRODUCT_PACKAGES += \
 
 # tri-state key
 PRODUCT_PACKAGES += \
-    KeyHandler \
     tri-state-key_daemon
 
 # Update engine
