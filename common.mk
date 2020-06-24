@@ -212,6 +212,7 @@ PRODUCT_PACKAGES += \
     init.qti.fm.sh \
     init.qti.ims.sh \
     init.recovery.qcom.rc \
+    init.smartcharging.rc \
     init.target.rc \
     kmemleak.sh \
     ueventd.rc \

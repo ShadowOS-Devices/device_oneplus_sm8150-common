@@ -3,6 +3,14 @@ LOCAL_PATH := $(call my-dir)
 # Common config scripts
 
 include $(CLEAR_VARS)
+LOCAL_MODULE       := init.smartcharging.rc
+LOCAL_MODULE_TAGS  := optional
+LOCAL_MODULE_CLASS := ETC
+LOCAL_SRC_FILES    := etc/init.smartcharging.rc
+LOCAL_MODULE_PATH  := $(TARGET_OUT_ETC)/init
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE       := coredump.sh
 LOCAL_MODULE_TAGS  := optional
 LOCAL_MODULE_CLASS := ETC
