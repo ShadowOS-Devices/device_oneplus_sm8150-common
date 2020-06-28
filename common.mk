@@ -10,10 +10,10 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 $(call inherit-product, vendor/oneplus/sm8150-common/sm8150-common-vendor.mk)
 
 # Inherit packages from vendor/google/camera
-$(call inherit-product, vendor/google/camera/config.mk)
+$(call inherit-product-if-exists, vendor/google/camera/config.mk)
 
 # Inherit packages from vendor/oneplus/camera
-$(call inherit-product, vendor/oneplus/camera/config.mk)
+$(call inherit-product-if-exists, vendor/oneplus/camera/config.mk)
 
 # Additional native libraries
 PRODUCT_COPY_FILES += \
