@@ -54,4 +54,7 @@
 
     <!-- Whether the device supports Smart Pixels -->
     <bool name="config_enableSmartPixels">true</bool>
+
+    <!-- Use proprietary vendor hal -->
+    <bool name="config_hasOneplusHapticMotor">true</bool>
 </resources>
