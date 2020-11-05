@@ -52,4 +52,11 @@
     <string name="category_vibrator">Вибрация</string>
     <string name="vib_strength_title_head">Интенсивность</string>
     <string name="vib_strength_summary_head">Установить интенсивность общей вибрации</string>
+    <string name="vib_call_strength_title_head">Вызовы</string>
+    <string name="vib_call_strength_summary_head">Установить интенсивность вибрации при входящем звонке</string>
+    <string name="vib_notif_strength_title_head">Уведомления</string>
+    <string name="vib_notif_strength_summary_head">Установить интенсивность вибрации при входящем уведомлении</string>
+
+    <string name="single_tap_gesture_title">Коснуться для активации</string>
+    <string name="single_tap_gesture_summary">Активация экрана одним косанием</string>
 </resources>
