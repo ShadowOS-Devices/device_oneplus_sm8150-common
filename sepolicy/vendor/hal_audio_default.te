@@ -30,3 +30,10 @@ r_dir_file(hal_audio_default, mnt_vendor_file)
 
 allow hal_audio_default hal_dms_hwservice:hwservice_manager find;
 binder_call(hal_audio_default, hal_dms_default)
+
+# Fix sound denial in Youtube Vanced
+allow hal_audio_default unlabeled:dir search;
+
+allow hal_audio_default audio_prop:file read;
+allow hal_audio_default sysfs:dir read;
+allow hal_audio_default sysfs_wake_lock:file write;
