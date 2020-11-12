@@ -52,40 +52,6 @@
     </PreferenceCategory>
 
     <PreferenceCategory
-        android:key="doze"
-        android:title="@string/doze_panel_title">
-
-        <Preference
-            android:key="advanced_doze_settings"
-            android:icon="@drawable/ic_doze"
-            android:persistent="false"
-            android:title="@string/doze_settings_title"
-            android:summary="@string/doze_settings_summary">
-            <intent
-                    android:action="android.intent.action.MAIN"
-                    android:targetPackage="org.evolution.settings.doze" 
-                    android:targetClass="org.evolution.settings.doze.DozeSettingsActivity"/>
-        </Preference>
-    </PreferenceCategory>
-
-    <PreferenceCategory
-        android:key="gestures"
-        android:title="@string/screen_gestures_panel_title">
-
-        <Preference
-            android:key="touchscreen_gesture_settings"
-            android:icon="@drawable/ic_gestures_icon"
-            android:persistent="false"
-            android:title="@string/touchscreen_gesture_settings_title"
-            android:summary="@string/touchscreen_gesture_settings_summary">
-            <intent
-                    android:action="android.intent.action.MAIN"
-                    android:targetPackage="com.android.touch.gestures"
-                    android:targetClass="com.android.touch.gestures.TouchscreenGestureSettings" />
-        </Preference>
-    </PreferenceCategory>
-
-    <PreferenceCategory
         android:key="refresh"
         android:title="@string/refresh_title">
 
@@ -115,6 +81,40 @@
             android:summary="@string/fps_info_summary"
             android:persistent="true" />
     </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="doze"
+        android:title="@string/doze_panel_title">
+
+        <Preference
+            android:key="advanced_doze_settings"
+            android:icon="@drawable/ic_doze"
+            android:persistent="false"
+            android:title="@string/doze_settings_title"
+            android:summary="@string/doze_settings_summary">
+            <intent
+                    android:action="android.intent.action.MAIN"
+                    android:targetPackage="org.evolution.settings.doze" 
+                    android:targetClass="org.evolution.settings.doze.DozeSettingsActivity"/>
+        </Preference>
+    </PreferenceCategory>
+
+    <!-- <PreferenceCategory
+        android:key="gestures"
+        android:title="@string/screen_gestures_panel_title">
+
+        <Preference
+            android:key="touchscreen_gesture_settings"
+            android:icon="@drawable/ic_gestures_icon"
+            android:persistent="false"
+            android:title="@string/touchscreen_gesture_settings_title"
+            android:summary="@string/touchscreen_gesture_settings_summary">
+            <intent
+                    android:action="android.intent.action.MAIN"
+                    android:targetPackage="com.android.touch.gestures"
+                    android:targetClass="com.android.touch.gestures.TouchscreenGestureSettings" />
+        </Preference>
+    </PreferenceCategory> -->
 
     <PreferenceCategory
         android:key="slider"
