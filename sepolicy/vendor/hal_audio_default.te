@@ -34,5 +34,6 @@ binder_call(hal_audio_default, hal_dms_default)
 # Fix sound denial in Youtube Vanced
 allow hal_audio_default unlabeled:dir search;
 
+dontaudit hal_audio_default audio_prop:file r_file_perms;
 allow hal_audio_default sysfs:dir read;
 allow hal_audio_default sysfs_wake_lock:file write;
