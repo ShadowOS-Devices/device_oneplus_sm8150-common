@@ -438,4 +438,7 @@
          and one pSIM) -->
     <integer name="config_num_physical_slots">2</integer>
 
+    <!-- FOD icon dim-->
+    <bool name="config_targetUsesInKernelDimming">true</bool>
+
 </resources>
